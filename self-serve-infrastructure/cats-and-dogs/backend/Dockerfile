@@ -1,4 +1,4 @@
-FROM redis
+FROM redis:8.6.1-trixie
 
 RUN apt-get update 
 RUN apt-get install -y curl 
